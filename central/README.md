@@ -4,8 +4,8 @@ This is where Raspberry Pi modules live. On the Pi, there are 2 primary operatio
 ## Data Collector
 This project samples data from peripheral hardware sensors, gathering data to be saved as a time series.
 
-## BLE Peripheral
-This project is built to advertise a service, connect to an iOS app, and transmit data/communication back and forth.
+## BLE Peripheral - Typescript
+BLE connectivity is done. Need to handle different types of transmissions from the iOS app.
 
 ## Important Data
 ### Distance

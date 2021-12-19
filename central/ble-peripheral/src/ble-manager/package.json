@@ -1,0 +1,11 @@
+{
+  "name": "ble-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "../app.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bleno": "^0.4.2",
+    "child_process": "^1.0.2"
+  }
+}

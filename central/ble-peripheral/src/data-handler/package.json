@@ -1,0 +1,7 @@
+{
+  "name": "data-handler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "../app.d.ts",
+  "license": "MIT"
+}

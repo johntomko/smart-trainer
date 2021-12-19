@@ -1,10 +1,8 @@
 {
   "name": "ble-peripheral",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "build/app.js",
   "license": "MIT",
-  "dependencies": {
-    "@types/bleno": "^0.4.2"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }

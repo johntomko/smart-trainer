@@ -1,0 +1,18 @@
+name: hi-alex
+on: push
+
+jobs:
+  email-people:
+    runs-on: ubuntu-latest
+    steps:
+      - name: email friends
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: ayy
+          to: bnseekfordysu@gmail.com,john.tomko1@gmail.com
+          from: John Tomko
+          body: lmao

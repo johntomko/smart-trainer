@@ -16,3 +16,4 @@ jobs:
           to: bnseekfordysu@gmail.com,john.tomko1@gmail.com
           from: John Tomko
           body: lmao
+      - run: echo "lmao"

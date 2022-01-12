@@ -15,5 +15,5 @@ jobs:
           subject: ayy lmao
           to: alucas96@me.com,john.tomko1@gmail.com
           from: John Tomko
-          body: i made a change to my git repo. check it out, or don't. i don't give a fuck
+          html_body: I made a change to my GitHub repo, this time with proper capitalization. <a href="https://github.com/johntomko/smart-trainer">Check it out</a> or don't, I may somewhat give a fuck.
       - run: echo "lmao"

@@ -12,8 +12,8 @@ jobs:
           server_port: 465
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
-          subject: ayy
-          to: bnseekfordysu@gmail.com,john.tomko1@gmail.com
+          subject: ayy lmao
+          to: alucas96@me.com,john.tomko1@gmail.com
           from: John Tomko
-          body: lmao
+          body: i made a change to my git repo. check it out, or don't. i don't give a fuck
       - run: echo "lmao"
